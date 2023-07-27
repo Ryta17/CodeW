@@ -1,0 +1,12 @@
+function basicOp(operation, value1, value2)
+{ var number1 = Number(value1);
+  var number2 = Number(value2);
+  if (operation == '+') {
+    return number1 + number2;
+} else if (operation == '-') {
+    return number1 - number2;
+} else if (operation == '*') {
+    return number1 * number2;
+} else if (operation == '/') { 
+    return number1 / number2;}
+}
