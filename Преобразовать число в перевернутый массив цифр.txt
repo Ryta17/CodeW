@@ -1,0 +1,4 @@
+function digitize(n) {
+  var result = (String(n).split('').reverse()).map(item => +item);
+  return result;
+}
