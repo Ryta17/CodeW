@@ -1,0 +1,6 @@
+function howManySmaller(arr, n) {
+  const result = arr
+    .map(item => item.toFixed(2))
+    .filter(item => item < n).length;
+  return result;
+}

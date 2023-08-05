@@ -1,0 +1,12 @@
+function howManySmaller(arr,n){
+  var count = 0;
+  var fixed = arr.map(function(x) {
+    return x.toFixed(2);
+  });
+  for (var i = 0; i < fixed.length; i++) {
+    if (+fixed[i] < n) {
+      count++;      
+    };
+  };
+  return count;
+};
