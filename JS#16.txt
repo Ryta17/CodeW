@@ -1,0 +1,4 @@
+function cutIt(arr){
+  var stringLength = Math.min(...arr.map(el => el.length));
+  return arr.map(el => el.substr(0, stringLength)); 
+ }  
