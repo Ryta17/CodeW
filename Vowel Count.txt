@@ -1,0 +1,4 @@
+function getCount(str) {
+  var sum = str.split('').filter(item => item == 'a').length + str.split('').filter(item => item == 'e').length + str.split('').filter(item => item == 'i').length + str.split('').filter(item => item == 'o').length + str.split('').filter(item => item == 'u').length;
+  return sum;
+}
